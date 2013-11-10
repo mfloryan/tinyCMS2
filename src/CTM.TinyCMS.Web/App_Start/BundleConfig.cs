@@ -10,6 +10,7 @@ namespace CTM.TinyCMS.Web
                 .Include("~/Content/bootstrap.min.css")
                 .Include("~/Content/bootstrap-theme.min.css")
                 .Include("~/Content/durandal.css")
+                .Include("~/Content/tinycms.css")
             );
 
             bundles.Add(new ScriptBundle("~/Scripts/js")
