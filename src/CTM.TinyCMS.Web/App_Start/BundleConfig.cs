@@ -8,7 +8,7 @@ namespace CTM.TinyCMS.Web
         {
             bundles.Add(new StyleBundle("~/Content/css")
                 .Include("~/Content/bootstrap.min.css")
-                .Include("~/Content/bootstrap-theme.min.css")
+//                .Include("~/Content/bootstrap-theme.min.css")
                 .Include("~/Content/durandal.css")
                 .Include("~/Content/tinycms.css")
             );

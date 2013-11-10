@@ -3,7 +3,8 @@
         router: router,
         activate: function () {
             router.map([
-                { route: '', moduleId: 'viewmodels/index', nav: true }
+                { route: '', moduleId: 'viewmodels/index', nav: false },
+                { route: 'home', moduleId: 'viewmodels/home/index', nav: true}
             ]).buildNavigationModel();
 
             return router.activate();
