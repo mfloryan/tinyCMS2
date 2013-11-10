@@ -1,16 +1,15 @@
-﻿
+﻿@using System.Web.Optimization
+
 <!DOCTYPE html>
 <html>
 <head>
     <title>TinyCMS</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="~/Content/bootstrap.min.css" rel="stylesheet">
-    <link href="~/Content/bootstrap-theme.min.css" rel="stylesheet">
+    @Styles.Render("~/css")
 </head>
 <body>
     <h1>TinyCMS</h1>
-
-    <script src="~/Scripts/jquery-1.9.1.min.js"></script>
-    <script src="~/Scripts/bootstrap.min.js"></script>
+    
+    @Scripts.Render("~/js")
 </body>
 </html>
