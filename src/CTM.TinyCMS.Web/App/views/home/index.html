@@ -1,3 +1,10 @@
 ﻿<div>
-    Home Brands
+    Home Brand
+    
+    
+    <ul data-bind="foreach: brands">
+        <li data-bind="text: $data"></li>
+    </ul>
+    
+    Selected brand: <span data-bind="text: brand"></span>
 </div>
